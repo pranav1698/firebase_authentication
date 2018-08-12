@@ -1,0 +1,29 @@
+page-login {
+
+  .background{
+    background-image: url('../../assets/imgs/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .listbackground{
+    background-image: url('../../assets/imgs/listbackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .heading{
+    font-style: normal;
+    font-family: monospace;
+    font-weight: bold;
+  }
+
+
+  .list{
+    border: 1px solid;
+    border-color: #ABAB9F;
+    border-radius: 5px;
+  }
+}

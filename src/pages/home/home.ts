@@ -1,14 +1,22 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, MenuController } from 'ionic-angular';
+import * as firebase from 'firebase';
+
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
+  user = firebase.auth().currentUser;
+  email = this.user.email;
+  constructor(public navCtrl: NavController, public menuCtrl: MenuController) {
 
-  constructor(public navCtrl: NavController) {
+  }
 
+  menuToggle(){
+    console.log("called");
+    this.menuCtrl.open();
   }
 
 }

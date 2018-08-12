@@ -1,3 +1,20 @@
 page-home {
 
+    .header{
+      background-color: inherit;
+    }
+
+    .menuHeader{
+      background-image: url('../../assets/imgs/logo.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .item-avatar  {
+      width:100% !important;
+      height : 100% !important;
+      max-width: 100px !important;  //any size
+      max-height: 100px !important; //any size
+    }
 }
