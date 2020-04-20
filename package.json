@@ -37,7 +37,7 @@
     "firebase": "^7.6.2",
     "ionic-angular": "3.9.10",
     "ionicons": "5.0.1",
-    "rxjs": "5.5.12",
+    "rxjs": "6.5.5",
     "sw-toolbox": "3.6.0",
     "zone.js": "0.10.3"
   },
