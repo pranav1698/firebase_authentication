@@ -18,7 +18,7 @@
     "@angular/core": "9.1.2",
     "@angular/forms": "9.1.4",
     "@angular/http": "7.2.16",
-    "@angular/platform-browser": "9.1.4",
+    "@angular/platform-browser": "11.2.11",
     "@angular/platform-browser-dynamic": "9.0.7",
     "@ionic-native/core": "~5.22.0",
     "@angular/platform-browser-dynamic": "9.1.7",
